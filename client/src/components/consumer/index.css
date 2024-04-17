@@ -1,0 +1,54 @@
+.container{
+    margin: 30px auto;
+    font-size: 1.5rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 500px;
+    background-color: #9964c7;
+    background-image: linear-gradient(135deg , #9964c7 0% , #6316bb , 100%);
+}
+
+.company-info{
+    display: flex;
+    flex-direction: column;
+    width: 300px
+}
+
+.company-info input{
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+    border: none;
+    font-size: 1rem;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+.company-info button{
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+button {
+    margin-right: 5px;
+    width: 120px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover{
+    background-color: #ae81e7;
+}
+
+::placeholder {
+    color: #adad;
+}
